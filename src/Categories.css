@@ -1,0 +1,92 @@
+.menu-wrapper {
+    width: 100%;
+    max-width: 1400px;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+/* Scrollable Menu */
+.menu-container {
+    display: flex;
+    overflow-x: auto;
+    white-space: nowrap;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+    padding: 10px 0;
+}
+
+.menu-container::-webkit-scrollbar {
+    display: none; 
+}
+
+/* Menu Items */
+.menu {
+    display: flex;
+    gap: 40px;
+}
+
+.menu-item {
+    flex: 0 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: #333;
+}
+
+.menu-item img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #eee;
+    transition: transform 0.3s ease;
+}
+
+.menu-item:hover img {
+    transform: scale(1.1);
+}
+
+.menu-item span {
+    margin-top: 8px;
+    font-size: 14px;
+}
+
+/* Scroll Buttons */
+.scroll-btn {
+    background-color: white;
+    border: none;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    font-size: 24px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 100;
+}
+
+.scroll-btn.left {
+    left: -20px;
+}
+
+.scroll-btn.right {
+    right: -20px;
+}
+
+.scroll-btn:hover {
+    background-color: #f0f0f0;
+}
+
+#test-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

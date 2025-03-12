@@ -1,0 +1,20 @@
+.rounded{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.rounded a{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.rounded a img{
+    width: 100%;
+    border-radius: 50%;
+}
+.rounded a .cardText{
+    width: 100%;
+    text-align: center;
+}
+.test1{}
+.test2{}
