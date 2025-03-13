@@ -19,10 +19,11 @@
 .test1{
     width: 100%;
 }
+
+.card { 
+    border-radius: 15px;
+  }
 .test2{
    
 }
 
-.card-img, .card-img-top {
-    border-radius: 16px;
-}

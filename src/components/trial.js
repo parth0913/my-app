@@ -2,37 +2,36 @@ import React from "react";
 import Card from "./card/Card";  
 import './general.css';
 
-// ✅ Correcting the data structure
 export const homePage = {
   Explore: [
     {
       imgSrc: "/images/Orchids-25-9-24 (1).png",
-      text: "This is the first section.",
+      text: "",
       anchor: "/explore"
     },
     {
       imgSrc: "/images/Orchids-25-9-24 (1).png",
-      text: "This is the second section.",
+      text: "",
       anchor: "/learn-more"
     },
     {
       imgSrc: "/images/Orchids-25-9-24 (1).png",
-      text: "This is the third section.",
+      text: "",
       anchor: "/shop"
     },
     {
       imgSrc: "/images/Orchids-25-9-24 (1).png",
-      text: "This is the third section.",
+      text: "",
       anchor: "/shop"
     },
     {
       imgSrc: "/images/Orchids-25-9-24 (1).png",
-      text: "This is the third section.",
+      text: "",
       anchor: "/shop"
     },
     {
       imgSrc: "/images/Orchids-25-9-24 (1).png",
-      text: "This is the third section.",
+      text: "",
       anchor: "/shop"
     },
   ]
@@ -41,7 +40,7 @@ export const homePage = {
 export default function CardSection() {
   return (
     <>
-      <h1 className="heading">Explore Our Exquisite Range</h1>
+      <h1 className="container heading">Explore Our Exquisite Range</h1>
       <div className="container flex gap">
         {homePage.Explore.map((card, index) => (
           <Card
