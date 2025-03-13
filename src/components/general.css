@@ -1,7 +1,21 @@
-.flex{
+.container {
+    max-width: 98%;  /* Adjust as needed */
+    margin: 0 auto;  /* Centers the content */
+    padding: 0 20px;  /* Adds spacing on both sides */
+}
+
+.flex {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.heading{
+    justify-content: center;
     display: flex;
 }
 
-heading{
-    justify-content: center;
+.gap{
+    gap: 10px;
 }
+

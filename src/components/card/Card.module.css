@@ -16,5 +16,13 @@
     width: 100%;
     text-align: center;
 }
-.test1{}
-.test2{}
+.test1{
+    width: 100%;
+}
+.test2{
+   
+}
+
+.card-img, .card-img-top {
+    border-radius: 16px;
+}
